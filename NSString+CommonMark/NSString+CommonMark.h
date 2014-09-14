@@ -12,12 +12,12 @@ extern NSString* const CMDMarkdownGenerationErrorDomain;
 extern const NSInteger CMDMarkdownParserErrorCode;
 extern const NSInteger CMDMarkdownGeneratorErrorCode;
 
-@interface NSString (CommonMarkdown)
+@interface NSString (CommonMark)
 
 /*
  Returns the html result from the markdown string
  or nil if there are errors during the conversion
  */
-- (NSString*)cmd_htmlRepresentation:(NSError**)error;
+- (NSString*)cm_htmlRepresentation:(NSError**)error;
 
 @end

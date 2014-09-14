@@ -14,7 +14,7 @@
 		1C36121619C64B8D009B40E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C36121219C64B8D009B40E6 /* ViewController.m */; };
 		1C36121719C64B8D009B40E6 /* CMDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C36121419C64B8D009B40E6 /* CMDAppDelegate.m */; };
 		1C36121B19C64C06009B40E6 /* CommonMark.md in Resources */ = {isa = PBXBuildFile; fileRef = 1C36121A19C64C06009B40E6 /* CommonMark.md */; };
-		1C36122E19C64C2C009B40E6 /* NSString+CommonMarkdown.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C36121E19C64C2C009B40E6 /* NSString+CommonMarkdown.m */; };
+		1C36122E19C64C2C009B40E6 /* NSString+CommonMark.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C36121E19C64C2C009B40E6 /* NSString+CommonMark.m */; };
 		1C36122F19C64C2C009B40E6 /* blocks.c in Sources */ = {isa = PBXBuildFile; fileRef = 1C36122019C64C2C009B40E6 /* blocks.c */; };
 		1C36123019C64C2C009B40E6 /* bstrlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 1C36122119C64C2C009B40E6 /* bstrlib.c */; };
 		1C36123119C64C2C009B40E6 /* detab.c in Sources */ = {isa = PBXBuildFile; fileRef = 1C36122419C64C2C009B40E6 /* detab.c */; };
@@ -26,7 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1C36118D19C6381E009B40E6 /* NSString+CommonMarkdown Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSString+CommonMarkdown Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C36118D19C6381E009B40E6 /* NSString+CommonMark Example.temp_caseinsensitive_rename.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSString+CommonMark Example.temp_caseinsensitive_rename.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C36119019C6381E009B40E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1C36119219C6381E009B40E6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		1C36119419C6381E009B40E6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -39,8 +39,8 @@
 		1C36121419C64B8D009B40E6 /* CMDAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMDAppDelegate.m; sourceTree = SOURCE_ROOT; };
 		1C36121519C64B8D009B40E6 /* CMDAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMDAppDelegate.h; sourceTree = SOURCE_ROOT; };
 		1C36121A19C64C06009B40E6 /* CommonMark.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CommonMark.md; sourceTree = SOURCE_ROOT; };
-		1C36121D19C64C2C009B40E6 /* NSString+CommonMarkdown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CommonMarkdown.h"; sourceTree = "<group>"; };
-		1C36121E19C64C2C009B40E6 /* NSString+CommonMarkdown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CommonMarkdown.m"; sourceTree = "<group>"; };
+		1C36121D19C64C2C009B40E6 /* NSString+CommonMark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CommonMark.h"; sourceTree = "<group>"; };
+		1C36121E19C64C2C009B40E6 /* NSString+CommonMark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CommonMark.m"; sourceTree = "<group>"; };
 		1C36122019C64C2C009B40E6 /* blocks.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = blocks.c; sourceTree = "<group>"; };
 		1C36122119C64C2C009B40E6 /* bstrlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bstrlib.c; sourceTree = "<group>"; };
 		1C36122219C64C2C009B40E6 /* bstrlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bstrlib.h; sourceTree = "<group>"; };
@@ -85,7 +85,7 @@
 		1C36118E19C6381E009B40E6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1C36118D19C6381E009B40E6 /* NSString+CommonMarkdown Example.app */,
+				1C36118D19C6381E009B40E6 /* NSString+CommonMark Example.temp_caseinsensitive_rename.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -136,12 +136,12 @@
 		1C36121C19C64C2C009B40E6 /* NSString+CommonMarkdown */ = {
 			isa = PBXGroup;
 			children = (
-				1C36121D19C64C2C009B40E6 /* NSString+CommonMarkdown.h */,
-				1C36121E19C64C2C009B40E6 /* NSString+CommonMarkdown.m */,
+				1C36121D19C64C2C009B40E6 /* NSString+CommonMark.h */,
+				1C36121E19C64C2C009B40E6 /* NSString+CommonMark.m */,
 				1C36121F19C64C2C009B40E6 /* stmd-src */,
 			);
 			name = "NSString+CommonMarkdown";
-			path = "../NSString+CommonMarkdown";
+			path = "../NSString+CommonMark";
 			sourceTree = "<group>";
 		};
 		1C36121F19C64C2C009B40E6 /* stmd-src */ = {
@@ -169,9 +169,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1C36118C19C6381E009B40E6 /* NSString+CommonMarkdown Example */ = {
+		1C36118C19C6381E009B40E6 /* NSString+CommonMark Example.temp_caseinsensitive_rename */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1C3611B919C6381F009B40E6 /* Build configuration list for PBXNativeTarget "NSString+CommonMarkdown Example" */;
+			buildConfigurationList = 1C3611B919C6381F009B40E6 /* Build configuration list for PBXNativeTarget "NSString+CommonMark Example.temp_caseinsensitive_rename" */;
 			buildPhases = (
 				1C36118919C6381E009B40E6 /* Sources */,
 				1C36118A19C6381E009B40E6 /* Frameworks */,
@@ -181,9 +181,9 @@
 			);
 			dependencies = (
 			);
-			name = "NSString+CommonMarkdown Example";
+			name = "NSString+CommonMark Example.temp_caseinsensitive_rename";
 			productName = "Objc-CommonMark-Binding";
-			productReference = 1C36118D19C6381E009B40E6 /* NSString+CommonMarkdown Example.app */;
+			productReference = 1C36118D19C6381E009B40E6 /* NSString+CommonMark Example.temp_caseinsensitive_rename.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -196,7 +196,7 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Jesús";
 			};
-			buildConfigurationList = 1C36118819C6381E009B40E6 /* Build configuration list for PBXProject "NSString+CommonMarkdown Example" */;
+			buildConfigurationList = 1C36118819C6381E009B40E6 /* Build configuration list for PBXProject "NSString+CommonMark Example" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -208,7 +208,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1C36118C19C6381E009B40E6 /* NSString+CommonMarkdown Example */,
+				1C36118C19C6381E009B40E6 /* NSString+CommonMark Example.temp_caseinsensitive_rename */,
 			);
 		};
 /* End PBXProject section */
@@ -238,7 +238,7 @@
 				1C36123619C64C2C009B40E6 /* utf8.c in Sources */,
 				1C36123119C64C2C009B40E6 /* detab.c in Sources */,
 				1C36121719C64B8D009B40E6 /* CMDAppDelegate.m in Sources */,
-				1C36122E19C64C2C009B40E6 /* NSString+CommonMarkdown.m in Sources */,
+				1C36122E19C64C2C009B40E6 /* NSString+CommonMark.m in Sources */,
 				1C36123319C64C2C009B40E6 /* inlines.c in Sources */,
 				1C36123419C64C2C009B40E6 /* print.c in Sources */,
 			);
@@ -325,7 +325,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Prefix.pch;
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
-				PRODUCT_NAME = "NSString+CommonMarkdown Example";
+				PRODUCT_NAME = "NSString+CommonMark Example.temp_caseinsensitive_rename";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -338,7 +338,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Prefix.pch;
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
-				PRODUCT_NAME = "NSString+CommonMarkdown Example";
+				PRODUCT_NAME = "NSString+CommonMark Example.temp_caseinsensitive_rename";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -346,7 +346,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1C36118819C6381E009B40E6 /* Build configuration list for PBXProject "NSString+CommonMarkdown Example" */ = {
+		1C36118819C6381E009B40E6 /* Build configuration list for PBXProject "NSString+CommonMark Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1C3611B719C6381F009B40E6 /* Debug */,
@@ -355,7 +355,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1C3611B919C6381F009B40E6 /* Build configuration list for PBXNativeTarget "NSString+CommonMarkdown Example" */ = {
+		1C3611B919C6381F009B40E6 /* Build configuration list for PBXNativeTarget "NSString+CommonMark Example.temp_caseinsensitive_rename" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1C3611BA19C6381F009B40E6 /* Debug */,

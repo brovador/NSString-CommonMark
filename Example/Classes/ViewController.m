@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "NSString+CommonMarkdown.h"
+#import "NSString+CommonMark.h"
 
 @interface ViewController ()
 
@@ -26,7 +26,7 @@
     NSString *sampleDocument = [NSString stringWithContentsOfFile:filePath
                                                          encoding:NSUTF8StringEncoding
                                                             error:nil];
-    [wv loadHTMLString:[sampleDocument cmd_htmlRepresentation:nil] baseURL:nil];
+    [wv loadHTMLString:[sampleDocument cm_htmlRepresentation:nil] baseURL:nil];
 }
 
 @end
