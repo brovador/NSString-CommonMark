@@ -10,7 +10,9 @@ or nil if there are errors during the conversion
 - (NSString*)cmd_htmlRepresentation:(NSError**)error
 ```
 
-## Errors (To do)
+## Errors
+
+(very basic, needs to be be improved)
 
 Errors will be treated as Parse or Generator errors in the same domain:
 
