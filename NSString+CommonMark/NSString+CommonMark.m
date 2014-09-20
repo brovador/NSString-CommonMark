@@ -26,7 +26,7 @@ const NSInteger CMDMarkdownGeneratorErrorCode = 200;
     [lines enumerateObjectsUsingBlock:^(NSString *line, NSUInteger idx, BOOL *stop) {
         bstring s = NULL;
         s = bfromcstr([[line stringByAppendingString:@"\n"] cStringUsingEncoding:NSUTF8StringEncoding]);
-        BOOL result = incorporate_line(s, idx, &cur);
+        BOOL result = incorporate_line(s, (int)idx, &cur);
         if (result != 0) {
             *error = [self cm_parseErrorWithCode:CMDMarkdownParserErrorCode userInfo:nil];
             *stop = YES;
@@ -34,12 +34,12 @@ const NSInteger CMDMarkdownGeneratorErrorCode = 200;
         bdestroy(s);
     }];
     
-    if (error == NULL) {
+    if (*error == nil) {
         while (cur != cur->top) {
-            finalize(cur, [lines count]);
+            finalize(cur, (int)[lines count]);
             cur = cur->parent;
         }
-        finalize(cur, [lines count]);
+        finalize(cur, (int)[lines count]);
         
         process_inlines(cur, cur->attributes.refmap);
         
